@@ -1,4 +1,4 @@
-logs/*
+
 trash.*
 src/__pycache__/*
 *.pyc
@@ -10,7 +10,8 @@ src/__pycache__/*
 env/
 
 # Ignore log files
-logs/*all.log
+
 logs/*.txt
 
 
+logs/test_log_R*.log
