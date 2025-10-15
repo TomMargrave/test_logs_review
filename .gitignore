@@ -10,7 +10,7 @@ src/__pycache__/*
 env/
 
 # Ignore log files
-logs/*.log
+logs/*all.log
 logs/*.txt
 
 

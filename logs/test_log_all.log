@@ -1,0 +1,1242 @@
+
+--- APPEND FROM R1.0 : 2025-09-28 08:02:14.784 ---
+--- START TEST_ID: Login_And_Checking_Balance Release_ID: R1.0 ---
+-- Description: Verify user can login and view checking account balance.
+2025-09-28 08:00:00.000 - START TESTed (0ms)
+2025-09-28 08:00:00.291 P Enter URL (291ms)
+2025-09-28 08:00:00.574 P Verify Page Start (283ms)
+2025-09-28 08:00:00.828 P Enter user name Tony (253ms)
+2025-09-28 08:00:01.179 P Enter password ****** (350ms)
+2025-09-28 08:00:01.850 P Click Login button (670ms)
+2025-09-28 08:00:02.751 P Verify home page appeared (901ms)
+2025-09-28 08:00:03.492 P Select Checking (740ms)
+2025-09-28 08:00:07.492 P Get Checking balance (4000ms)
+2025-09-28 08:00:08.241 P Verify Balance (749ms)
+2025-09-28 08:00:08.917 P Click Log out (675ms)
+2025-09-28 08:00:09.509 P Verify logged out (592ms)
+2025-09-28 08:00:10.478 P Click Log out (968ms)
+2025-09-28 08:00:10.478 - END TEST (0ms)
+--- END TEST_ID: Login_And_Checking_Balance (Release_ID: R1.0) ---
+
+--- START TEST_ID: Transfer_Funds Release_ID: R1.0 ---
+-- Description: Verify transfer from Checking to Savings.
+2025-09-28 08:00:19.478 - START TESTed (0ms)
+2025-09-28 08:00:19.743 P Enter URL (265ms)
+2025-09-28 08:00:20.046 P Verify Page Start (303ms)
+2025-09-28 08:00:20.397 P Enter user name Tony (350ms)
+2025-09-28 08:00:20.730 P Enter password ****** (332ms)
+2025-09-28 08:00:21.506 P Click Login button (776ms)
+2025-09-28 08:00:22.499 P Verify home page appeared (992ms)
+2025-09-28 08:00:23.429 P Select Transfer Funds (929ms)
+2025-09-28 08:00:24.046 P Enter amount 100.00 (617ms)
+2025-09-28 08:00:24.627 P Select From Checking (580ms)
+2025-09-28 08:00:25.128 P Select To Savings (501ms)
+2025-09-28 08:00:26.197 P Submit Transfer (1068ms)
+2025-09-28 08:00:27.310 P Verify Transfer Success (1112ms)
+2025-09-28 08:00:27.947 P Click Log out (637ms)
+2025-09-28 08:00:28.531 P Verify logged out (583ms)
+2025-09-28 08:00:29.119 P Verify logged out (587ms)
+2025-09-28 08:00:29.119 - END TEST (0ms)
+--- END TEST_ID: Transfer_Funds (Release_ID: R1.0) ---
+
+--- START TEST_ID: Test_3 Release_ID: R1.0 ---
+-- Description: Auto-generated test case number 3.
+2025-09-28 08:00:30.119 - START TESTed (0ms)
+2025-09-28 08:00:30.401 P Enter URL (281ms)
+2025-09-28 08:00:30.698 P Verify Page Start (297ms)
+2025-09-28 08:00:31.043 P Enter user name Tony (344ms)
+2025-09-28 08:00:31.364 P Enter password ****** (321ms)
+2025-09-28 08:00:32.133 P Click Login button (769ms)
+2025-09-28 08:00:33.261 P Verify home page appeared (1127ms)
+2025-09-28 08:00:33.713 P Perform action 3_1 (451ms)
+2025-09-28 08:00:34.201 P Perform action 3_2 (488ms)
+2025-09-28 08:00:34.707 P Verify result 3 (505ms)
+2025-09-28 08:00:35.314 P Click Log out (607ms)
+2025-09-28 08:00:35.745 P Verify logged out (430ms)
+2025-09-28 08:00:35.745 - END TEST (0ms)
+--- END TEST_ID: Test_3 (Release_ID: R1.0) ---
+
+--- START TEST_ID: Test_4 Release_ID: R1.0 ---
+-- Description: Auto-generated test case number 4.
+2025-09-28 08:00:39.745 - START TESTed (0ms)
+2025-09-28 08:00:40.004 P Enter URL (258ms)
+2025-09-28 08:00:40.337 P Verify Page Start (333ms)
+2025-09-28 08:00:40.583 P Enter user name Tony (246ms)
+2025-09-28 08:00:40.884 P Enter password ****** (300ms)
+2025-09-28 08:00:41.761 P Click Login button (877ms)
+2025-09-28 08:00:42.863 P Verify home page appeared (1102ms)
+2025-09-28 08:00:43.279 P Perform action 4_1 (415ms)
+2025-09-28 08:00:43.764 P Perform action 4_2 (485ms)
+2025-09-28 08:00:44.290 P Verify result 4 (526ms)
+2025-09-28 08:00:44.898 P Click Log out (608ms)
+2025-09-28 08:00:45.429 P Verify logged out (531ms)
+2025-09-28 08:00:45.429 - END TEST (0ms)
+--- END TEST_ID: Test_4 (Release_ID: R1.0) ---
+
+--- START TEST_ID: Test_6 Release_ID: R1.0 ---
+-- Description: Auto-generated test case number 6.
+2025-09-28 08:00:49.429 - START TESTed (0ms)
+2025-09-28 08:00:49.741 P Enter URL (311ms)
+2025-09-28 08:00:50.087 P Verify Page Start (346ms)
+2025-09-28 08:00:50.379 P Enter user name Tony (292ms)
+2025-09-28 08:00:50.658 P Enter password ****** (278ms)
+2025-09-28 08:00:51.608 P Click Login button (950ms)
+2025-09-28 08:00:52.705 P Verify home page appeared (1096ms)
+2025-09-28 08:00:53.225 P Perform action 6_1 (520ms)
+2025-09-28 08:00:53.816 P Perform action 6_2 (590ms)
+2025-09-28 08:00:54.459 P Verify result 6 (643ms)
+2025-09-28 08:00:55.174 P Click Log out (715ms)
+2025-09-28 08:00:55.745 P Verify logged out (570ms)
+2025-09-28 08:00:55.745 - END TEST (0ms)
+--- END TEST_ID: Test_6 (Release_ID: R1.0) ---
+
+--- START TEST_ID: Test_8 Release_ID: R1.0 ---
+-- Description: Auto-generated test case number 8.
+2025-09-28 08:00:59.745 - START TESTed (0ms)
+2025-09-28 08:01:00.074 P Enter URL (329ms)
+2025-09-28 08:01:00.317 P Verify Page Start (243ms)
+2025-09-28 08:01:00.653 P Enter user name Tony (336ms)
+2025-09-28 08:01:00.903 P Enter password ****** (249ms)
+2025-09-28 08:01:01.839 P Click Login button (935ms)
+2025-09-28 08:01:02.894 P Verify home page appeared (1055ms)
+2025-09-28 08:01:03.293 P Perform action 8_1 (399ms)
+2025-09-28 08:01:03.984 P Perform action 8_2 (691ms)
+2025-09-28 08:01:04.743 P Verify result 8 (758ms)
+2025-09-28 08:01:05.311 P Click Log out (568ms)
+2025-09-28 08:01:05.802 P Verify logged out (490ms)
+2025-09-28 08:01:05.802 - END TEST (0ms)
+--- END TEST_ID: Test_8 (Release_ID: R1.0) ---
+
+--- START TEST_ID: Test_9 Release_ID: R1.0 ---
+-- Description: Auto-generated test case number 9.
+2025-09-28 08:01:13.802 - START TESTed (0ms)
+2025-09-28 08:01:14.087 P Enter URL (284ms)
+2025-09-28 08:01:14.445 P Verify Page Start (358ms)
+2025-09-28 08:01:14.757 P Enter user name Tony (311ms)
+2025-09-28 08:01:15.100 P Enter password ****** (342ms)
+2025-09-28 08:01:15.878 P Click Login button (778ms)
+2025-09-28 08:01:16.849 P Verify home page appeared (970ms)
+2025-09-28 08:01:17.388 P Perform action 9_1 (539ms)
+2025-09-28 08:01:18.081 P Perform action 9_2 (693ms)
+2025-09-28 08:01:18.784 P Verify result 9 (702ms)
+2025-09-28 08:01:19.407 P Click Log out (623ms)
+2025-09-28 08:01:19.965 P Verify logged out (557ms)
+2025-09-28 08:01:19.965 - END TEST (0ms)
+--- END TEST_ID: Test_9 (Release_ID: R1.0) ---
+
+--- START TEST_ID: Test_11 Release_ID: R1.0 ---
+-- Description: Auto-generated test case number 11.
+2025-09-28 08:01:20.965 - START TESTed (0ms)
+2025-09-28 08:01:21.293 P Enter URL (328ms)
+2025-09-28 08:01:21.623 P Verify Page Start (330ms)
+2025-09-28 08:01:21.960 P Enter user name Tony (336ms)
+2025-09-28 08:01:22.255 P Enter password ****** (295ms)
+2025-09-28 08:01:22.934 P Click Login button (678ms)
+2025-09-28 08:01:23.908 P Verify home page appeared (974ms)
+2025-09-28 08:01:24.413 P Perform action 11_1 (504ms)
+2025-09-28 08:01:25.101 P Perform action 11_2 (688ms)
+2025-09-28 08:01:25.627 P Verify result 11 (525ms)
+2025-09-28 08:01:26.291 P Click Log out (664ms)
+2025-09-28 08:01:26.694 P Verify logged out (402ms)
+2025-09-28 08:01:26.694 - END TEST (0ms)
+--- END TEST_ID: Test_11 (Release_ID: R1.0) ---
+
+--- START TEST_ID: Test_12 Release_ID: R1.0 ---
+-- Description: Auto-generated test case number 12.
+2025-09-28 08:01:35.694 - START TESTed (0ms)
+2025-09-28 08:01:35.962 P Enter URL (268ms)
+2025-09-28 08:01:36.277 P Verify Page Start (315ms)
+2025-09-28 08:01:36.595 P Enter user name Tony (318ms)
+2025-09-28 08:01:36.904 P Enter password ****** (308ms)
+2025-09-28 08:01:37.781 P Click Login button (877ms)
+2025-09-28 08:01:38.822 P Verify home page appeared (1040ms)
+2025-09-28 08:01:39.409 P Perform action 12_1 (587ms)
+2025-09-28 08:01:40.032 P Perform action 12_2 (622ms)
+2025-09-28 08:01:40.676 P Verify result 12 (644ms)
+2025-09-28 08:01:41.264 P Click Log out (587ms)
+2025-09-28 08:01:41.831 P Verify logged out (567ms)
+2025-09-28 08:01:41.831 - END TEST (0ms)
+--- END TEST_ID: Test_12 (Release_ID: R1.0) ---
+
+--- START TEST_ID: Test_14 Release_ID: R1.0 ---
+-- Description: Auto-generated test case number 14.
+2025-09-28 08:01:43.831 - START TESTed (0ms)
+2025-09-28 08:01:44.182 P Enter URL (350ms)
+2025-09-28 08:01:44.479 P Verify Page Start (297ms)
+2025-09-28 08:01:44.821 P Enter user name Tony (342ms)
+2025-09-28 08:01:45.166 P Enter password ****** (344ms)
+2025-09-28 08:01:45.923 P Click Login button (757ms)
+2025-09-28 08:01:46.881 P Verify home page appeared (958ms)
+2025-09-28 08:01:47.416 P Perform action 14_1 (535ms)
+2025-09-28 08:01:48.249 P Perform action 14_2 (832ms)
+2025-09-28 08:01:48.835 P Verify result 14 (586ms)
+2025-09-28 08:01:49.393 P Click Log out (558ms)
+2025-09-28 08:01:49.949 P Verify logged out (555ms)
+2025-09-28 08:01:49.949 - END TEST (0ms)
+--- END TEST_ID: Test_14 (Release_ID: R1.0) ---
+
+--- START TEST_ID: Test_16 Release_ID: R1.0 ---
+-- Description: Auto-generated test case number 16.
+2025-09-28 08:01:59.949 - START TESTed (0ms)
+2025-09-28 08:02:00.248 P Enter URL (299ms)
+2025-09-28 08:02:00.586 P Verify Page Start (337ms)
+2025-09-28 08:02:00.849 P Enter user name Tony (263ms)
+2025-09-28 08:02:01.144 P Enter password ****** (294ms)
+2025-09-28 08:02:01.873 P Click Login button (728ms)
+2025-09-28 08:02:02.760 P Verify home page appeared (887ms)
+2025-09-28 08:02:03.299 P Perform action 16_1 (538ms)
+2025-09-28 08:02:03.900 P Perform action 16_2 (601ms)
+2025-09-28 08:02:04.629 P Verify result 16 (728ms)
+2025-09-28 08:02:05.128 P Click Log out (498ms)
+2025-09-28 08:02:05.609 P Verify logged out (481ms)
+2025-09-28 08:02:05.609 - END TEST (0ms)
+--- END TEST_ID: Test_16 (Release_ID: R1.0) ---
+
+--- START TEST_ID: Test_17 Release_ID: R1.0 ---
+-- Description: Auto-generated test case number 17.
+2025-09-28 08:02:06.609 - START TESTed (0ms)
+2025-09-28 08:02:06.908 P Enter URL (298ms)
+2025-09-28 08:02:07.252 P Verify Page Start (344ms)
+2025-09-28 08:02:07.556 P Enter user name Tony (303ms)
+2025-09-28 08:02:07.818 P Enter password ****** (261ms)
+2025-09-28 08:02:08.655 P Click Login button (836ms)
+2025-09-28 08:02:09.719 P Verify home page appeared (1064ms)
+2025-09-28 08:02:10.291 P Perform action 17_1 (572ms)
+2025-09-28 08:02:11.130 P Perform action 17_2 (838ms)
+2025-09-28 08:02:11.681 P Verify result 17 (551ms)
+2025-09-28 08:02:12.284 P Click Log out (603ms)
+2025-09-28 08:02:12.784 P Verify logged out (499ms)
+2025-09-28 08:02:12.784 - END TEST (0ms)
+--- END TEST_ID: Test_17 (Release_ID: R1.0) ---
+
+
+--- SUMMARY ---
+Release_ID: R1.0
+Tests Run: 12
+Tests Passed: 12
+Tests Skipped: 5
+Steps Passed: 137
+Steps Failed: 0
+Average Latency: 6648 ms
+
+--- END APPEND FROM R1.0 ---
+
+--- APPEND FROM R2.0 : 2025-09-29 08:02:06.138 ---
+--- START TEST_ID: Login_And_Checking_Balance Release_ID: R2.0 ---
+-- Description: Verify user can login and view checking account balance.
+2025-09-29 08:00:00.000 - START TESTed (0ms)
+2025-09-29 08:00:00.293 P Enter URL (293ms)
+2025-09-29 08:00:00.540 P Verify Page Start (246ms)
+2025-09-29 08:00:00.812 P Enter user name Tony (272ms)
+2025-09-29 08:00:01.063 P Enter password ****** (251ms)
+2025-09-29 08:00:01.996 P Click Login button (932ms)
+2025-09-29 08:00:03.085 P Verify home page appeared (1089ms)
+2025-09-29 08:00:03.653 P Select Checking (567ms)
+2025-09-29 08:00:07.653 P Get Checking balance (4000ms)
+2025-09-29 08:00:08.504 P Verify Balance (851ms)
+2025-09-29 08:00:09.066 P Click Log out (561ms)
+2025-09-29 08:00:09.565 P Verify logged out (498ms)
+2025-09-29 08:00:10.538 P Click Log out (972ms)
+2025-09-29 08:00:10.538 - END TEST (0ms)
+--- END TEST_ID: Login_And_Checking_Balance (Release_ID: R2.0) ---
+
+--- START TEST_ID: Test_3 Release_ID: R2.0 ---
+-- Description: Auto-generated test case number 3.
+2025-09-29 08:00:11.538 - START TESTed (0ms)
+2025-09-29 08:00:11.829 P Enter URL (291ms)
+2025-09-29 08:00:12.091 P Verify Page Start (262ms)
+2025-09-29 08:00:12.436 P Enter user name Tony (344ms)
+2025-09-29 08:00:12.753 P Enter password ****** (317ms)
+2025-09-29 08:00:13.395 P Click Login button (642ms)
+2025-09-29 08:00:14.536 P Verify home page appeared (1140ms)
+2025-09-29 08:00:14.978 P Perform action 3_1 (442ms)
+2025-09-29 08:00:15.433 P Perform action 3_2 (455ms)
+2025-09-29 08:00:15.979 P Verify result 3 (545ms)
+2025-09-29 08:00:16.612 P Click Log out (633ms)
+2025-09-29 08:00:17.127 P Verify logged out (515ms)
+2025-09-29 08:00:17.127 - END TEST (0ms)
+--- END TEST_ID: Test_3 (Release_ID: R2.0) ---
+
+--- START TEST_ID: Test_7 Release_ID: R2.0 ---
+-- Description: Auto-generated test case number 7.
+2025-09-29 08:00:21.127 - START TESTed (0ms)
+2025-09-29 08:00:21.419 P Enter URL (291ms)
+2025-09-29 08:00:21.733 P Verify Page Start (314ms)
+2025-09-29 08:00:22.030 P Enter user name Tony (296ms)
+2025-09-29 08:00:22.379 P Enter password ****** (349ms)
+2025-09-29 08:00:23.100 P Click Login button (720ms)
+2025-09-29 08:00:24.288 P Verify home page appeared (1187ms)
+2025-09-29 08:00:24.678 P Perform action 7_1 (390ms)
+2025-09-29 08:00:25.263 P Perform action 7_2 (584ms)
+2025-09-29 08:00:25.894 P Verify result 7 (630ms)
+2025-09-29 08:00:26.607 P Click Log out (712ms)
+2025-09-29 08:00:27.048 P Verify logged out (441ms)
+2025-09-29 08:00:27.048 - END TEST (0ms)
+--- END TEST_ID: Test_7 (Release_ID: R2.0) ---
+
+--- START TEST_ID: Test_8 Release_ID: R2.0 ---
+-- Description: Auto-generated test case number 8.
+2025-09-29 08:00:29.048 - START TESTed (0ms)
+2025-09-29 08:00:29.390 P Enter URL (342ms)
+2025-09-29 08:00:29.704 P Verify Page Start (313ms)
+2025-09-29 08:00:29.997 P Enter user name Tony (293ms)
+2025-09-29 08:00:30.275 P Enter password ****** (277ms)
+2025-09-29 08:00:31.163 P Click Login button (888ms)
+2025-09-29 08:00:32.130 P Verify home page appeared (966ms)
+2025-09-29 08:00:32.687 P Perform action 8_1 (556ms)
+2025-09-29 08:00:33.193 P Perform action 8_2 (506ms)
+2025-09-29 08:00:33.763 P Verify result 8 (569ms)
+2025-09-29 08:00:34.349 P Click Log out (585ms)
+2025-09-29 08:00:34.882 P Verify logged out (532ms)
+2025-09-29 08:00:34.882 - END TEST (0ms)
+--- END TEST_ID: Test_8 (Release_ID: R2.0) ---
+
+--- START TEST_ID: Test_9 Release_ID: R2.0 ---
+-- Description: Auto-generated test case number 9.
+2025-09-29 08:00:41.882 - START TESTed (0ms)
+2025-09-29 08:00:42.205 P Enter URL (323ms)
+2025-09-29 08:00:42.513 P Verify Page Start (307ms)
+2025-09-29 08:00:42.823 P Enter user name Tony (310ms)
+2025-09-29 08:00:43.103 P Enter password ****** (279ms)
+2025-09-29 08:00:44.020 P Click Login button (916ms)
+2025-09-29 08:00:45.202 P Verify home page appeared (1181ms)
+2025-09-29 08:00:45.732 P Perform action 9_1 (530ms)
+2025-09-29 08:00:46.283 P Perform action 9_2 (550ms)
+2025-09-29 08:00:46.856 P Verify result 9 (573ms)
+2025-09-29 08:00:47.389 P Click Log out (532ms)
+2025-09-29 08:00:47.920 P Verify logged out (531ms)
+2025-09-29 08:00:47.920 - END TEST (0ms)
+--- END TEST_ID: Test_9 (Release_ID: R2.0) ---
+
+--- START TEST_ID: Test_10 Release_ID: R2.0 ---
+-- Description: Auto-generated test case number 10.
+2025-09-29 08:00:57.920 - START TESTed (0ms)
+2025-09-29 08:00:58.235 P Enter URL (314ms)
+2025-09-29 08:00:58.578 P Verify Page Start (343ms)
+2025-09-29 08:00:58.938 P Enter user name Tony (359ms)
+2025-09-29 08:00:59.286 P Enter password ****** (348ms)
+2025-09-29 08:01:00.039 P Click Login button (752ms)
+2025-09-29 08:01:01.023 P Verify home page appeared (984ms)
+2025-09-29 08:01:01.605 P Perform action 10_1 (582ms)
+2025-09-29 08:01:02.382 P Perform action 10_2 (776ms)
+2025-09-29 08:01:02.933 P Verify result 10 (551ms)
+2025-09-29 08:01:03.435 P Click Log out (502ms)
+2025-09-29 08:01:03.870 P Verify logged out (434ms)
+2025-09-29 08:01:03.870 - END TEST (0ms)
+--- END TEST_ID: Test_10 (Release_ID: R2.0) ---
+
+--- START TEST_ID: Test_11 Release_ID: R2.0 ---
+-- Description: Auto-generated test case number 11.
+2025-09-29 08:01:04.870 - START TESTed (0ms)
+2025-09-29 08:01:05.122 P Enter URL (251ms)
+2025-09-29 08:01:05.370 P Verify Page Start (248ms)
+2025-09-29 08:01:05.695 P Enter user name Tony (324ms)
+2025-09-29 08:01:05.967 P Enter password ****** (272ms)
+2025-09-29 08:01:06.872 P Click Login button (905ms)
+2025-09-29 08:01:07.722 P Verify home page appeared (849ms)
+2025-09-29 08:01:08.188 P Perform action 11_1 (466ms)
+2025-09-29 08:01:08.791 P Perform action 11_2 (602ms)
+2025-09-29 08:01:09.576 P Verify result 11 (785ms)
+2025-09-29 08:01:10.285 P Click Log out (709ms)
+2025-09-29 08:01:10.830 P Verify logged out (544ms)
+2025-09-29 08:01:10.830 - END TEST (0ms)
+--- END TEST_ID: Test_11 (Release_ID: R2.0) ---
+
+--- START TEST_ID: Test_12 Release_ID: R2.0 ---
+-- Description: Auto-generated test case number 12.
+2025-09-29 08:01:12.830 - START TESTed (0ms)
+2025-09-29 08:01:13.168 P Enter URL (338ms)
+2025-09-29 08:01:13.458 P Verify Page Start (289ms)
+2025-09-29 08:01:13.739 P Enter user name Tony (280ms)
+2025-09-29 08:01:14.027 P Enter password ****** (288ms)
+2025-09-29 08:01:14.942 P Click Login button (914ms)
+2025-09-29 08:01:15.931 P Verify home page appeared (989ms)
+2025-09-29 08:01:16.526 P Perform action 12_1 (594ms)
+2025-09-29 08:01:17.160 P Perform action 12_2 (633ms)
+2025-09-29 08:01:17.752 P Verify result 12 (592ms)
+2025-09-29 08:01:18.336 P Click Log out (583ms)
+2025-09-29 08:01:18.832 P Verify logged out (495ms)
+2025-09-29 08:01:18.832 - END TEST (0ms)
+--- END TEST_ID: Test_12 (Release_ID: R2.0) ---
+
+--- START TEST_ID: Test_13 Release_ID: R2.0 ---
+-- Description: Auto-generated test case number 13.
+2025-09-29 08:01:25.832 - START TESTed (0ms)
+2025-09-29 08:01:26.101 P Enter URL (269ms)
+2025-09-29 08:01:26.451 P Verify Page Start (349ms)
+2025-09-29 08:01:26.720 P Enter user name Tony (269ms)
+2025-09-29 08:01:27.058 P Enter password ****** (337ms)
+2025-09-29 08:01:27.823 P Click Login button (765ms)
+2025-09-29 08:01:28.626 P Verify home page appeared (802ms)
+2025-09-29 08:01:29.239 P Perform action 13_1 (613ms)
+2025-09-29 08:01:29.981 P Perform action 13_2 (741ms)
+2025-09-29 08:01:30.709 P Verify result 13 (728ms)
+2025-09-29 08:01:31.190 P Click Log out (481ms)
+2025-09-29 08:01:31.726 P Verify logged out (535ms)
+2025-09-29 08:01:31.726 - END TEST (0ms)
+--- END TEST_ID: Test_13 (Release_ID: R2.0) ---
+
+--- START TEST_ID: Test_14 Release_ID: R2.0 ---
+-- Description: Auto-generated test case number 14.
+2025-09-29 08:01:33.726 - START TESTed (0ms)
+2025-09-29 08:01:34.047 P Enter URL (320ms)
+2025-09-29 08:01:34.336 P Verify Page Start (289ms)
+2025-09-29 08:01:34.617 P Enter user name Tony (281ms)
+2025-09-29 08:01:34.888 P Enter password ****** (270ms)
+2025-09-29 08:01:35.685 P Click Login button (796ms)
+2025-09-29 08:01:36.866 P Verify home page appeared (1180ms)
+2025-09-29 08:01:37.437 P Perform action 14_1 (571ms)
+2025-09-29 08:01:38.234 P Perform action 14_2 (796ms)
+2025-09-29 08:01:38.814 P Verify result 14 (580ms)
+2025-09-29 08:01:39.509 P Click Log out (694ms)
+2025-09-29 08:01:40.063 P Verify logged out (554ms)
+2025-09-29 08:01:40.063 - END TEST (0ms)
+--- END TEST_ID: Test_14 (Release_ID: R2.0) ---
+
+--- START TEST_ID: Test_15 Release_ID: R2.0 ---
+-- Description: Auto-generated test case number 15.
+2025-09-29 08:01:46.063 - START TESTed (0ms)
+2025-09-29 08:01:46.374 P Enter URL (310ms)
+2025-09-29 08:01:46.649 P Verify Page Start (275ms)
+2025-09-29 08:01:46.891 P Enter user name Tony (241ms)
+2025-09-29 08:01:47.143 P Enter password ****** (252ms)
+2025-09-29 08:01:47.965 P Click Login button (821ms)
+2025-09-29 08:01:49.105 P Verify home page appeared (1139ms)
+2025-09-29 08:01:49.592 P Perform action 15_1 (487ms)
+2025-09-29 08:01:50.377 P Perform action 15_2 (785ms)
+2025-09-29 08:01:50.990 P Verify result 15 (612ms)
+2025-09-29 08:01:51.479 P Click Log out (488ms)
+2025-09-29 08:01:52.057 P Verify logged out (578ms)
+2025-09-29 08:01:52.057 - END TEST (0ms)
+--- END TEST_ID: Test_15 (Release_ID: R2.0) ---
+
+--- START TEST_ID: Test_17 Release_ID: R2.0 ---
+-- Description: Auto-generated test case number 17.
+2025-09-29 08:01:54.057 - START TESTed (0ms)
+2025-09-29 08:01:54.404 P Enter URL (347ms)
+2025-09-29 08:01:54.753 P Verify Page Start (348ms)
+2025-09-29 08:01:55.030 P Enter user name Tony (277ms)
+2025-09-29 08:01:55.304 P Enter password ****** (273ms)
+2025-09-29 08:01:55.957 P Click Login button (652ms)
+2025-09-29 08:01:56.918 P Verify home page appeared (961ms)
+2025-09-29 08:01:57.413 P Perform action 17_1 (494ms)
+2025-09-29 08:01:58.245 P Perform action 17_2 (831ms)
+2025-09-29 08:01:58.976 P Verify result 17 (731ms)
+2025-09-29 08:01:59.637 P Click Log out (661ms)
+2025-09-29 08:02:00.138 P Verify logged out (501ms)
+2025-09-29 08:02:00.138 - END TEST (0ms)
+--- END TEST_ID: Test_17 (Release_ID: R2.0) ---
+
+
+--- SUMMARY ---
+Release_ID: R2.0
+Tests Run: 12
+Tests Passed: 12
+Tests Skipped: 5
+Steps Passed: 133
+Steps Failed: 0
+Average Latency: 6344 ms
+
+--- END APPEND FROM R2.0 ---
+
+--- APPEND FROM R3.0 : 2025-09-30 08:03:01.869 ---
+--- START TEST_ID: Login_And_Checking_Balance Release_ID: R3.0 ---
+-- Description: Verify user can login and view checking account balance.
+2025-09-30 08:00:00.000 - START TESTed (0ms)
+2025-09-30 08:00:00.276 P Enter URL (276ms)
+2025-09-30 08:00:00.550 P Verify Page Start (274ms)
+2025-09-30 08:00:00.886 P Enter user name Tony (336ms)
+2025-09-30 08:00:01.220 P Enter password ****** (333ms)
+2025-09-30 08:00:01.882 P Click Login button (661ms)
+2025-09-30 08:00:02.736 P Verify home page appeared (854ms)
+2025-09-30 08:00:03.344 P Select Checking (607ms)
+2025-09-30 08:00:07.344 P Get Checking balance (4000ms)
+2025-09-30 08:00:08.170 P Verify Balance (825ms)
+2025-09-30 08:00:08.752 P Click Log out (582ms)
+2025-09-30 08:00:09.318 P Verify logged out (565ms)
+2025-09-30 08:00:10.441 P Click Log out (1123ms)
+2025-09-30 08:00:10.441 - END TEST (0ms)
+--- END TEST_ID: Login_And_Checking_Balance (Release_ID: R3.0) ---
+
+--- START TEST_ID: Transfer_Funds Release_ID: R3.0 ---
+-- Description: Verify transfer from Checking to Savings.
+2025-09-30 08:00:18.441 - START TESTed (0ms)
+2025-09-30 08:00:18.686 P Enter URL (244ms)
+2025-09-30 08:00:19.043 P Verify Page Start (357ms)
+2025-09-30 08:00:19.312 P Enter user name Tony (269ms)
+2025-09-30 08:00:19.648 P Enter password ****** (335ms)
+2025-09-30 08:00:20.573 P Click Login button (924ms)
+2025-09-30 08:00:21.742 P Verify home page appeared (1169ms)
+2025-09-30 08:00:22.604 P Select Transfer Funds (861ms)
+2025-09-30 08:00:23.431 P Enter amount 100.00 (826ms)
+2025-09-30 08:00:23.907 P Select From Checking (475ms)
+2025-09-30 08:00:24.443 P Select To Savings (536ms)
+2025-09-30 08:00:25.475 P Submit Transfer (1031ms)
+2025-09-30 08:00:26.593 P Verify Transfer Success (1118ms)
+2025-09-30 08:00:27.167 P Click Log out (573ms)
+2025-09-30 08:00:27.721 P Verify logged out (554ms)
+2025-09-30 08:00:28.288 P Verify logged out (567ms)
+2025-09-30 08:00:28.288 - END TEST (0ms)
+--- END TEST_ID: Transfer_Funds (Release_ID: R3.0) ---
+
+--- START TEST_ID: Test_3 Release_ID: R3.0 ---
+-- Description: Auto-generated test case number 3.
+2025-09-30 08:00:31.288 - START TESTed (0ms)
+2025-09-30 08:00:31.641 P Enter URL (353ms)
+2025-09-30 08:00:31.993 P Verify Page Start (351ms)
+2025-09-30 08:00:32.314 P Enter user name Tony (321ms)
+2025-09-30 08:00:32.647 P Enter password ****** (332ms)
+2025-09-30 08:00:33.334 P Click Login button (687ms)
+2025-09-30 08:00:34.279 P Verify home page appeared (944ms)
+2025-09-30 08:00:34.766 P Perform action 3_1 (487ms)
+2025-09-30 08:00:35.278 P Perform action 3_2 (511ms)
+2025-09-30 08:00:35.917 P Verify result 3 (638ms)
+2025-09-30 08:00:36.629 P Click Log out (712ms)
+2025-09-30 08:00:37.152 P Verify logged out (522ms)
+2025-09-30 08:00:37.152 - END TEST (0ms)
+--- END TEST_ID: Test_3 (Release_ID: R3.0) ---
+
+--- START TEST_ID: Test_4 Release_ID: R3.0 ---
+-- Description: Auto-generated test case number 4.
+2025-09-30 08:00:42.152 - START TESTed (0ms)
+2025-09-30 08:00:42.438 P Enter URL (286ms)
+2025-09-30 08:00:42.731 P Verify Page Start (293ms)
+2025-09-30 08:00:42.982 P Enter user name Tony (250ms)
+2025-09-30 08:00:43.227 P Enter password ****** (245ms)
+2025-09-30 08:00:44.169 P Click Login button (942ms)
+2025-09-30 08:00:45.118 P Verify home page appeared (949ms)
+2025-09-30 08:00:45.612 P Perform action 4_1 (493ms)
+2025-09-30 08:00:46.106 P Perform action 4_2 (494ms)
+2025-09-30 08:00:46.838 P Verify result 4 (732ms)
+2025-09-30 08:00:47.474 P Click Log out (635ms)
+2025-09-30 08:00:47.899 P Verify logged out (424ms)
+2025-09-30 08:00:47.899 - END TEST (0ms)
+--- END TEST_ID: Test_4 (Release_ID: R3.0) ---
+
+--- START TEST_ID: Test_5 Release_ID: R3.0 ---
+-- Description: Auto-generated test case number 5.
+2025-09-30 08:00:57.899 - START TESTed (0ms)
+2025-09-30 08:00:58.256 P Enter URL (357ms)
+2025-09-30 08:00:58.606 P Verify Page Start (349ms)
+2025-09-30 08:00:58.891 P Enter user name Tony (284ms)
+2025-09-30 08:00:59.163 P Enter password ****** (271ms)
+2025-09-30 08:01:00.096 P Click Login button (933ms)
+2025-09-30 08:01:00.905 P Verify home page appeared (809ms)
+2025-09-30 08:01:01.275 P Perform action 5_1 (369ms)
+2025-09-30 08:01:01.736 P Perform action 5_2 (460ms)
+2025-09-30 08:01:02.299 P Verify result 5 (563ms)
+2025-09-30 08:01:02.953 P Click Log out (654ms)
+2025-09-30 08:01:03.486 P Verify logged out (532ms)
+2025-09-30 08:01:03.486 - END TEST (0ms)
+--- END TEST_ID: Test_5 (Release_ID: R3.0) ---
+
+--- START TEST_ID: Test_7 Release_ID: R3.0 ---
+-- Description: Auto-generated test case number 7.
+2025-09-30 08:01:06.486 - START TESTed (0ms)
+2025-09-30 08:01:06.817 P Enter URL (331ms)
+2025-09-30 08:01:07.117 P Verify Page Start (299ms)
+2025-09-30 08:01:07.365 P Enter user name Tony (248ms)
+2025-09-30 08:01:07.674 P Enter password ****** (308ms)
+2025-09-30 08:01:08.439 P Click Login button (765ms)
+2025-09-30 08:01:09.326 P Verify home page appeared (886ms)
+2025-09-30 08:01:09.704 P Perform action 7_1 (377ms)
+2025-09-30 08:01:10.400 P Perform action 7_2 (696ms)
+2025-09-30 08:01:11.132 P Verify result 7 (732ms)
+2025-09-30 08:01:11.795 P Click Log out (663ms)
+2025-09-30 08:01:12.385 P Verify logged out (589ms)
+2025-09-30 08:01:12.385 - END TEST (0ms)
+--- END TEST_ID: Test_7 (Release_ID: R3.0) ---
+
+--- START TEST_ID: Test_8 Release_ID: R3.0 ---
+-- Description: Auto-generated test case number 8.
+2025-09-30 08:01:19.385 - START TESTed (0ms)
+2025-09-30 08:01:19.664 P Enter URL (279ms)
+2025-09-30 08:01:19.938 P Verify Page Start (274ms)
+2025-09-30 08:01:20.272 P Enter user name Tony (334ms)
+2025-09-30 08:01:20.529 P Enter password ****** (257ms)
+2025-09-30 08:01:21.262 P Click Login button (732ms)
+2025-09-30 08:01:22.426 P Verify home page appeared (1163ms)
+2025-09-30 08:01:22.865 P Perform action 8_1 (439ms)
+2025-09-30 08:01:23.457 P Perform action 8_2 (591ms)
+2025-09-30 08:01:24.066 P Verify result 8 (608ms)
+2025-09-30 08:01:24.558 P Click Log out (492ms)
+2025-09-30 08:01:25.091 P Verify logged out (532ms)
+2025-09-30 08:01:25.091 - END TEST (0ms)
+--- END TEST_ID: Test_8 (Release_ID: R3.0) ---
+
+--- START TEST_ID: Test_9 Release_ID: R3.0 ---
+-- Description: Auto-generated test case number 9.
+2025-09-30 08:01:30.091 - START TESTed (0ms)
+2025-09-30 08:01:30.430 P Enter URL (339ms)
+2025-09-30 08:01:30.723 P Verify Page Start (293ms)
+2025-09-30 08:01:31.017 P Enter user name Tony (294ms)
+2025-09-30 08:01:31.369 P Enter password ****** (351ms)
+2025-09-30 08:01:32.111 P Click Login button (741ms)
+2025-09-30 08:01:33.294 P Verify home page appeared (1182ms)
+2025-09-30 08:01:33.876 P Perform action 9_1 (582ms)
+2025-09-30 08:01:34.580 P Perform action 9_2 (704ms)
+2025-09-30 08:01:35.165 P Verify result 9 (584ms)
+2025-09-30 08:01:35.858 P Click Log out (693ms)
+2025-09-30 08:01:36.332 P Verify logged out (474ms)
+2025-09-30 08:01:36.332 - END TEST (0ms)
+--- END TEST_ID: Test_9 (Release_ID: R3.0) ---
+
+--- START TEST_ID: Test_10 Release_ID: R3.0 ---
+-- Description: Auto-generated test case number 10.
+2025-09-30 08:01:41.332 - START TESTed (0ms)
+2025-09-30 08:01:41.594 P Enter URL (261ms)
+2025-09-30 08:01:41.884 P Verify Page Start (290ms)
+2025-09-30 08:01:42.238 P Enter user name Tony (353ms)
+2025-09-30 08:01:42.540 P Enter password ****** (301ms)
+2025-09-30 08:01:43.291 P Click Login button (751ms)
+2025-09-30 08:01:44.298 P Verify home page appeared (1006ms)
+2025-09-30 08:01:44.884 P Perform action 10_1 (586ms)
+2025-09-30 08:01:45.562 P Perform action 10_2 (677ms)
+2025-09-30 08:01:46.092 P Verify result 10 (530ms)
+2025-09-30 08:01:46.626 P Click Log out (533ms)
+2025-09-30 08:01:47.105 P Verify logged out (479ms)
+2025-09-30 08:01:47.105 - END TEST (0ms)
+--- END TEST_ID: Test_10 (Release_ID: R3.0) ---
+
+--- START TEST_ID: Test_11 Release_ID: R3.0 ---
+-- Description: Auto-generated test case number 11.
+2025-09-30 08:01:57.105 - START TESTed (0ms)
+2025-09-30 08:01:57.375 P Enter URL (269ms)
+2025-09-30 08:01:57.618 P Verify Page Start (243ms)
+2025-09-30 08:01:57.935 P Enter user name Tony (316ms)
+2025-09-30 08:01:58.244 P Enter password ****** (309ms)
+2025-09-30 08:01:59.126 P Click Login button (881ms)
+2025-09-30 08:02:00.063 P Verify home page appeared (937ms)
+2025-09-30 08:02:00.551 P Perform action 11_1 (487ms)
+2025-09-30 08:02:01.247 P Perform action 11_2 (696ms)
+2025-09-30 08:02:02.027 P Verify result 11 (779ms)
+2025-09-30 08:02:02.744 P Click Log out (717ms)
+2025-09-30 08:02:03.238 P Verify logged out (494ms)
+2025-09-30 08:02:03.238 - END TEST (0ms)
+--- END TEST_ID: Test_11 (Release_ID: R3.0) ---
+
+--- START TEST_ID: Test_12 Release_ID: R3.0 ---
+-- Description: Auto-generated test case number 12.
+2025-09-30 08:02:06.238 - START TESTed (0ms)
+2025-09-30 08:02:06.499 P Enter URL (260ms)
+2025-09-30 08:02:06.759 P Verify Page Start (259ms)
+2025-09-30 08:02:07.100 P Enter user name Tony (340ms)
+2025-09-30 08:02:07.390 P Enter password ****** (290ms)
+2025-09-30 08:02:08.044 P Click Login button (654ms)
+2025-09-30 08:02:08.854 P Verify home page appeared (810ms)
+2025-09-30 08:02:09.355 P Perform action 12_1 (500ms)
+2025-09-30 08:02:10.112 P Perform action 12_2 (757ms)
+2025-09-30 08:02:10.649 P Verify result 12 (537ms)
+2025-09-30 08:02:11.152 P Click Log out (503ms)
+2025-09-30 08:02:11.672 P Verify logged out (519ms)
+2025-09-30 08:02:11.672 - END TEST (0ms)
+--- END TEST_ID: Test_12 (Release_ID: R3.0) ---
+
+--- START TEST_ID: Test_13 Release_ID: R3.0 ---
+-- Description: Auto-generated test case number 13.
+2025-09-30 08:02:18.672 - START TESTed (0ms)
+2025-09-30 08:02:18.929 P Enter URL (257ms)
+2025-09-30 08:02:19.237 P Verify Page Start (307ms)
+2025-09-30 08:02:19.589 P Enter user name Tony (352ms)
+2025-09-30 08:02:19.871 P Enter password ****** (282ms)
+2025-09-30 08:02:20.612 P Click Login button (740ms)
+2025-09-30 08:02:21.805 P Verify home page appeared (1192ms)
+2025-09-30 08:02:22.335 P Perform action 13_1 (529ms)
+2025-09-30 08:02:22.893 P Perform action 13_2 (558ms)
+2025-09-30 08:02:23.688 P Verify result 13 (795ms)
+2025-09-30 08:02:24.324 P Click Log out (636ms)
+2025-09-30 08:02:24.886 P Verify logged out (561ms)
+2025-09-30 08:02:24.886 - END TEST (0ms)
+--- END TEST_ID: Test_13 (Release_ID: R3.0) ---
+
+--- START TEST_ID: Test_14 Release_ID: R3.0 ---
+-- Description: Auto-generated test case number 14.
+2025-09-30 08:02:28.886 - START TESTed (0ms)
+2025-09-30 08:02:29.171 P Enter URL (285ms)
+2025-09-30 08:02:29.436 P Verify Page Start (265ms)
+2025-09-30 08:02:29.756 P Enter user name Tony (319ms)
+2025-09-30 08:02:30.055 P Enter password ****** (298ms)
+2025-09-30 08:02:30.755 P Click Login button (700ms)
+2025-09-30 08:02:31.584 P Verify home page appeared (829ms)
+2025-09-30 08:02:32.040 P Perform action 14_1 (455ms)
+2025-09-30 08:02:32.856 P Perform action 14_2 (815ms)
+2025-09-30 08:02:33.503 P Verify result 14 (647ms)
+2025-09-30 08:02:34.103 P Click Log out (600ms)
+2025-09-30 08:02:34.596 P Verify logged out (492ms)
+2025-09-30 08:02:34.596 - END TEST (0ms)
+--- END TEST_ID: Test_14 (Release_ID: R3.0) ---
+
+--- START TEST_ID: Test_15 Release_ID: R3.0 ---
+-- Description: Auto-generated test case number 15.
+2025-09-30 08:02:35.596 - START TESTed (0ms)
+2025-09-30 08:02:35.927 P Enter URL (330ms)
+2025-09-30 08:02:36.242 P Verify Page Start (314ms)
+2025-09-30 08:02:36.503 P Enter user name Tony (260ms)
+2025-09-30 08:02:36.858 P Enter password ****** (355ms)
+2025-09-30 08:02:37.622 P Click Login button (763ms)
+2025-09-30 08:02:38.713 P Verify home page appeared (1091ms)
+2025-09-30 08:02:39.155 P Perform action 15_1 (441ms)
+2025-09-30 08:02:39.765 P Perform action 15_2 (609ms)
+2025-09-30 08:02:40.418 P Verify result 15 (653ms)
+2025-09-30 08:02:40.955 P Click Log out (536ms)
+2025-09-30 08:02:41.499 P Verify logged out (543ms)
+2025-09-30 08:02:41.499 - END TEST (0ms)
+--- END TEST_ID: Test_15 (Release_ID: R3.0) ---
+
+--- START TEST_ID: Test_16 Release_ID: R3.0 ---
+-- Description: Auto-generated test case number 16.
+2025-09-30 08:02:45.499 - START TESTed (0ms)
+2025-09-30 08:02:45.854 P Enter URL (355ms)
+2025-09-30 08:02:46.098 P Verify Page Start (243ms)
+2025-09-30 08:02:46.351 P Enter user name Tony (253ms)
+2025-09-30 08:02:46.632 P Enter password ****** (280ms)
+2025-09-30 08:02:47.580 P Click Login button (948ms)
+2025-09-30 08:02:48.771 P Verify home page appeared (1190ms)
+2025-09-30 08:02:49.302 P Perform action 16_1 (531ms)
+2025-09-30 08:02:50.106 P Perform action 16_2 (804ms)
+2025-09-30 08:02:50.779 P Verify result 16 (672ms)
+2025-09-30 08:02:51.300 P Click Log out (520ms)
+2025-09-30 08:02:51.869 P Verify logged out (568ms)
+2025-09-30 08:02:51.869 - END TEST (0ms)
+--- END TEST_ID: Test_16 (Release_ID: R3.0) ---
+
+
+--- SUMMARY ---
+Release_ID: R3.0
+Tests Run: 15
+Tests Passed: 15
+Tests Skipped: 2
+Steps Passed: 170
+Steps Failed: 0
+Average Latency: 6457 ms
+
+--- END APPEND FROM R3.0 ---
+
+--- APPEND FROM R3.1 : 2025-10-01 08:02:53.836 ---
+--- START TEST_ID: Login_And_Checking_Balance Release_ID: R3.1 ---
+-- Description: Verify user can login and view checking account balance.
+2025-10-01 08:00:00.000 - START TESTed (0ms)
+2025-10-01 08:00:00.251 P Enter URL (251ms)
+2025-10-01 08:00:00.579 P Verify Page Start (328ms)
+2025-10-01 08:00:00.919 P Enter user name Tony (339ms)
+2025-10-01 08:00:01.162 P Enter password ****** (242ms)
+2025-10-01 08:00:01.809 P Click Login button (647ms)
+2025-10-01 08:00:02.719 P Verify home page appeared (909ms)
+2025-10-01 08:00:03.337 P Select Checking (617ms)
+2025-10-01 08:00:07.337 P Get Checking balance (4000ms)
+2025-10-01 08:00:08.127 P Verify Balance (789ms)
+2025-10-01 08:00:08.640 P Click Log out (513ms)
+2025-10-01 08:00:09.193 P Verify logged out (553ms)
+2025-10-01 08:00:10.368 P Click Log out (1174ms)
+2025-10-01 08:00:10.368 - END TEST (0ms)
+--- END TEST_ID: Login_And_Checking_Balance (Release_ID: R3.1) ---
+
+--- START TEST_ID: Transfer_Funds Release_ID: R3.1 ---
+-- Description: Verify transfer from Checking to Savings.
+2025-10-01 08:00:17.368 - START TESTed (0ms)
+2025-10-01 08:00:17.628 P Enter URL (260ms)
+2025-10-01 08:00:17.896 P Verify Page Start (268ms)
+2025-10-01 08:00:18.167 P Enter user name Tony (270ms)
+2025-10-01 08:00:18.408 P Enter password ****** (240ms)
+2025-10-01 08:00:19.304 P Click Login button (896ms)
+2025-10-01 08:00:20.353 P Verify home page appeared (1048ms)
+2025-10-01 08:00:21.090 P Select Transfer Funds (736ms)
+2025-10-01 08:00:21.664 P Enter amount 100.00 (574ms)
+2025-10-01 08:00:22.147 P Select From Checking (483ms)
+2025-10-01 08:00:22.729 P Select To Savings (582ms)
+2025-10-01 08:00:23.841 P Submit Transfer (1111ms)
+2025-10-01 08:00:24.730 P Verify Transfer Success (889ms)
+2025-10-01 08:00:25.309 P Click Log out (579ms)
+2025-10-01 08:00:25.816 P Verify logged out (506ms)
+2025-10-01 08:00:26.258 P Verify logged out (442ms)
+2025-10-01 08:00:26.258 - END TEST (0ms)
+--- END TEST_ID: Transfer_Funds (Release_ID: R3.1) ---
+
+--- START TEST_ID: Test_3 Release_ID: R3.1 ---
+-- Description: Auto-generated test case number 3.
+2025-10-01 08:00:34.258 - START TESTed (0ms)
+2025-10-01 08:00:34.508 P Enter URL (250ms)
+2025-10-01 08:00:34.755 P Verify Page Start (246ms)
+2025-10-01 08:00:35.108 P Enter user name Tony (352ms)
+2025-10-01 08:00:35.363 P Enter password ****** (255ms)
+2025-10-01 08:00:36.108 P Click Login button (744ms)
+2025-10-01 08:00:37.034 P Verify home page appeared (926ms)
+2025-10-01 08:00:37.495 P Perform action 3_1 (461ms)
+2025-10-01 08:00:37.958 P Perform action 3_2 (462ms)
+2025-10-01 08:00:38.470 P Verify result 3 (511ms)
+2025-10-01 08:00:39.069 P Click Log out (598ms)
+2025-10-01 08:00:39.628 P Verify logged out (559ms)
+2025-10-01 08:00:39.628 - END TEST (0ms)
+--- END TEST_ID: Test_3 (Release_ID: R3.1) ---
+
+--- START TEST_ID: Test_4 Release_ID: R3.1 ---
+-- Description: Auto-generated test case number 4.
+2025-10-01 08:00:42.628 - START TESTed (0ms)
+2025-10-01 08:00:42.962 P Enter URL (333ms)
+2025-10-01 08:00:43.251 P Verify Page Start (288ms)
+2025-10-01 08:00:43.556 P Enter user name Tony (305ms)
+2025-10-01 08:00:43.804 P Enter password ****** (247ms)
+2025-10-01 08:00:44.610 P Click Login button (806ms)
+2025-10-01 08:00:45.458 P Verify home page appeared (847ms)
+2025-10-01 08:00:45.934 P Perform action 4_1 (476ms)
+2025-10-01 08:00:46.387 P Perform action 4_2 (453ms)
+2025-10-01 08:00:47.089 P Verify result 4 (702ms)
+2025-10-01 08:00:47.606 P Click Log out (516ms)
+2025-10-01 08:00:48.072 P Verify logged out (466ms)
+2025-10-01 08:00:48.072 - END TEST (0ms)
+--- END TEST_ID: Test_4 (Release_ID: R3.1) ---
+
+--- START TEST_ID: Test_5 Release_ID: R3.1 ---
+-- Description: Auto-generated test case number 5.
+2025-10-01 08:00:54.072 - START TESTed (0ms)
+2025-10-01 08:00:54.325 P Enter URL (252ms)
+2025-10-01 08:00:54.591 P Verify Page Start (266ms)
+2025-10-01 08:00:54.832 P Enter user name Tony (240ms)
+2025-10-01 08:00:55.141 P Enter password ****** (308ms)
+2025-10-01 08:00:56.010 P Click Login button (869ms)
+2025-10-01 08:00:56.908 P Verify home page appeared (897ms)
+2025-10-01 08:00:57.322 P Perform action 5_1 (414ms)
+2025-10-01 08:00:57.840 P Perform action 5_2 (517ms)
+2025-10-01 08:00:58.343 P Verify result 5 (503ms)
+2025-10-01 08:00:58.864 P Click Log out (520ms)
+2025-10-01 08:00:59.311 P Verify logged out (446ms)
+2025-10-01 08:00:59.311 - END TEST (0ms)
+--- END TEST_ID: Test_5 (Release_ID: R3.1) ---
+
+--- START TEST_ID: Test_6 Release_ID: R3.1 ---
+-- Description: Auto-generated test case number 6.
+2025-10-01 08:01:00.311 - START TESTed (0ms)
+2025-10-01 08:01:00.624 P Enter URL (313ms)
+2025-10-01 08:01:00.883 P Verify Page Start (258ms)
+2025-10-01 08:01:01.209 P Enter user name Tony (325ms)
+2025-10-01 08:01:01.457 P Enter password ****** (248ms)
+2025-10-01 08:01:02.244 P Click Login button (787ms)
+2025-10-01 08:01:03.219 P Verify home page appeared (974ms)
+2025-10-01 08:01:03.638 P Perform action 6_1 (418ms)
+2025-10-01 08:01:04.196 P Perform action 6_2 (557ms)
+2025-10-01 08:01:04.951 P Verify result 6 (755ms)
+2025-10-01 08:01:05.497 P Click Log out (545ms)
+2025-10-01 08:01:05.923 P Verify logged out (426ms)
+2025-10-01 08:01:05.923 - END TEST (0ms)
+--- END TEST_ID: Test_6 (Release_ID: R3.1) ---
+
+--- START TEST_ID: Test_8 Release_ID: R3.1 ---
+-- Description: Auto-generated test case number 8.
+2025-10-01 08:01:08.923 - START TESTed (0ms)
+2025-10-01 08:01:09.263 P Enter URL (340ms)
+2025-10-01 08:01:09.611 P Verify Page Start (348ms)
+2025-10-01 08:01:09.966 P Enter user name Tony (355ms)
+2025-10-01 08:01:10.319 P Enter password ****** (353ms)
+2025-10-01 08:01:11.084 P Click Login button (764ms)
+2025-10-01 08:01:12.055 P Verify home page appeared (970ms)
+2025-10-01 08:01:12.628 P Perform action 8_1 (573ms)
+2025-10-01 08:01:13.281 P Perform action 8_2 (652ms)
+2025-10-01 08:01:14.043 P Verify result 8 (761ms)
+2025-10-01 08:01:14.526 P Click Log out (483ms)
+2025-10-01 08:01:15.007 P Verify logged out (480ms)
+2025-10-01 08:01:15.007 - END TEST (0ms)
+--- END TEST_ID: Test_8 (Release_ID: R3.1) ---
+
+--- START TEST_ID: Test_9 Release_ID: R3.1 ---
+-- Description: Auto-generated test case number 9.
+2025-10-01 08:01:23.007 - START TESTed (0ms)
+2025-10-01 08:01:23.255 P Enter URL (247ms)
+2025-10-01 08:01:23.594 P Verify Page Start (339ms)
+2025-10-01 08:01:23.950 P Enter user name Tony (355ms)
+2025-10-01 08:01:24.224 P Enter password ****** (273ms)
+2025-10-01 08:01:25.149 P Click Login button (925ms)
+2025-10-01 08:01:26.196 P Verify home page appeared (1046ms)
+2025-10-01 08:01:26.710 P Perform action 9_1 (513ms)
+2025-10-01 08:01:27.467 P Perform action 9_2 (757ms)
+2025-10-01 08:01:28.103 P Verify result 9 (636ms)
+2025-10-01 08:01:28.621 P Click Log out (517ms)
+2025-10-01 08:01:29.054 P Verify logged out (432ms)
+2025-10-01 08:01:29.054 - END TEST (0ms)
+--- END TEST_ID: Test_9 (Release_ID: R3.1) ---
+
+--- START TEST_ID: Test_10 Release_ID: R3.1 ---
+-- Description: Auto-generated test case number 10.
+2025-10-01 08:01:36.054 - START TESTed (0ms)
+2025-10-01 08:01:36.373 P Enter URL (319ms)
+2025-10-01 08:01:36.697 P Verify Page Start (324ms)
+2025-10-01 08:01:37.045 P Enter user name Tony (347ms)
+2025-10-01 08:01:37.378 P Enter password ****** (333ms)
+2025-10-01 08:01:38.053 P Click Login button (675ms)
+2025-10-01 08:01:39.083 P Verify home page appeared (1029ms)
+2025-10-01 08:01:39.681 P Perform action 10_1 (597ms)
+2025-10-01 08:01:40.452 P Perform action 10_2 (771ms)
+2025-10-01 08:01:41.127 P Verify result 10 (674ms)
+2025-10-01 08:01:41.610 P Click Log out (482ms)
+2025-10-01 08:01:42.099 P Verify logged out (488ms)
+2025-10-01 08:01:42.099 - END TEST (0ms)
+--- END TEST_ID: Test_10 (Release_ID: R3.1) ---
+
+--- START TEST_ID: Test_11 Release_ID: R3.1 ---
+-- Description: Auto-generated test case number 11.
+2025-10-01 08:01:48.099 - START TESTed (0ms)
+2025-10-01 08:01:48.348 P Enter URL (249ms)
+2025-10-01 08:01:48.649 P Verify Page Start (300ms)
+2025-10-01 08:01:48.936 P Enter user name Tony (287ms)
+2025-10-01 08:01:49.222 P Enter password ****** (285ms)
+2025-10-01 08:01:49.940 P Click Login button (718ms)
+2025-10-01 08:01:50.794 P Verify home page appeared (854ms)
+2025-10-01 08:01:51.268 P Perform action 11_1 (473ms)
+2025-10-01 08:01:51.892 P Perform action 11_2 (623ms)
+2025-10-01 08:01:52.542 P Verify result 11 (650ms)
+2025-10-01 08:01:53.262 P Click Log out (719ms)
+2025-10-01 08:01:53.804 P Verify logged out (542ms)
+2025-10-01 08:01:53.804 - END TEST (0ms)
+--- END TEST_ID: Test_11 (Release_ID: R3.1) ---
+
+--- START TEST_ID: Test_12 Release_ID: R3.1 ---
+-- Description: Auto-generated test case number 12.
+2025-10-01 08:02:01.804 - START TESTed (0ms)
+2025-10-01 08:02:02.135 P Enter URL (331ms)
+2025-10-01 08:02:02.448 P Verify Page Start (312ms)
+2025-10-01 08:02:02.808 P Enter user name Tony (359ms)
+2025-10-01 08:02:03.079 P Enter password ****** (271ms)
+2025-10-01 08:02:03.831 P Click Login button (751ms)
+2025-10-01 08:02:04.832 P Verify home page appeared (1000ms)
+2025-10-01 08:02:05.455 P Perform action 12_1 (623ms)
+2025-10-01 08:02:06.171 P Perform action 12_2 (715ms)
+2025-10-01 08:02:06.860 P Verify result 12 (688ms)
+2025-10-01 08:02:07.437 P Click Log out (577ms)
+2025-10-01 08:02:07.904 P Verify logged out (467ms)
+2025-10-01 08:02:07.904 - END TEST (0ms)
+--- END TEST_ID: Test_12 (Release_ID: R3.1) ---
+
+--- START TEST_ID: Test_14 Release_ID: R3.1 ---
+-- Description: Auto-generated test case number 14.
+2025-10-01 08:02:13.904 - START TESTed (0ms)
+2025-10-01 08:02:14.180 P Enter URL (275ms)
+2025-10-01 08:02:14.486 P Verify Page Start (306ms)
+2025-10-01 08:02:14.786 P Enter user name Tony (299ms)
+2025-10-01 08:02:15.053 P Enter password ****** (266ms)
+2025-10-01 08:02:15.780 P Click Login button (727ms)
+2025-10-01 08:02:16.717 P Verify home page appeared (936ms)
+2025-10-01 08:02:17.361 P Perform action 14_1 (643ms)
+2025-10-01 08:02:18.071 P Perform action 14_2 (709ms)
+2025-10-01 08:02:18.615 P Verify result 14 (544ms)
+2025-10-01 08:02:19.306 P Click Log out (690ms)
+2025-10-01 08:02:19.813 P Verify logged out (506ms)
+2025-10-01 08:02:19.813 - END TEST (0ms)
+--- END TEST_ID: Test_14 (Release_ID: R3.1) ---
+
+--- START TEST_ID: Test_15 Release_ID: R3.1 ---
+-- Description: Auto-generated test case number 15.
+2025-10-01 08:02:26.813 - START TESTed (0ms)
+2025-10-01 08:02:27.154 P Enter URL (340ms)
+2025-10-01 08:02:27.415 P Verify Page Start (260ms)
+2025-10-01 08:02:27.663 P Enter user name Tony (247ms)
+2025-10-01 08:02:27.958 P Enter password ****** (295ms)
+2025-10-01 08:02:28.778 P Click Login button (819ms)
+2025-10-01 08:02:29.815 P Verify home page appeared (1037ms)
+2025-10-01 08:02:30.433 P Perform action 15_1 (617ms)
+2025-10-01 08:02:31.174 P Perform action 15_2 (740ms)
+2025-10-01 08:02:31.768 P Verify result 15 (594ms)
+2025-10-01 08:02:32.485 P Click Log out (717ms)
+2025-10-01 08:02:32.992 P Verify logged out (506ms)
+2025-10-01 08:02:32.992 - END TEST (0ms)
+--- END TEST_ID: Test_15 (Release_ID: R3.1) ---
+
+--- START TEST_ID: Test_16 Release_ID: R3.1 ---
+-- Description: Auto-generated test case number 16.
+2025-10-01 08:02:42.992 - START TESTed (0ms)
+2025-10-01 08:02:43.297 P Enter URL (305ms)
+2025-10-01 08:02:43.555 P Verify Page Start (257ms)
+2025-10-01 08:02:43.852 P Enter user name Tony (297ms)
+2025-10-01 08:02:44.116 P Enter password ****** (263ms)
+2025-10-01 08:02:44.855 P Click Login button (739ms)
+2025-10-01 08:02:45.658 P Verify home page appeared (802ms)
+2025-10-01 08:02:46.200 P Perform action 16_1 (541ms)
+2025-10-01 08:02:47.003 P Perform action 16_2 (803ms)
+2025-10-01 08:02:47.813 P Verify result 16 (809ms)
+2025-10-01 08:02:48.423 P Click Log out (610ms)
+2025-10-01 08:02:48.836 P Verify logged out (413ms)
+2025-10-01 08:02:48.836 - END TEST (0ms)
+--- END TEST_ID: Test_16 (Release_ID: R3.1) ---
+
+
+--- SUMMARY ---
+Release_ID: R3.1
+Tests Run: 14
+Tests Passed: 14
+Tests Skipped: 3
+Steps Passed: 159
+Steps Failed: 0
+Average Latency: 6345 ms
+
+--- END APPEND FROM R3.1 ---
+
+--- APPEND FROM R5.0 : 2025-10-02 08:03:14.227 ---
+--- START TEST_ID: Login_And_Checking_Balance Release_ID: R5.0 ---
+-- Description: Verify user can login and view checking account balance.
+2025-10-02 08:00:00.000 - START TESTed (0ms)
+2025-10-02 08:00:00.355 P Enter URL (355ms)
+2025-10-02 08:00:00.669 P Verify Page Start (313ms)
+2025-10-02 08:00:00.988 P Enter user name Tony (319ms)
+2025-10-02 08:00:01.234 P Enter password ****** (245ms)
+2025-10-02 08:00:02.178 P Click Login button (944ms)
+2025-10-02 08:00:03.368 P Verify home page appeared (1190ms)
+2025-10-02 08:00:04.030 P Select Checking (661ms)
+2025-10-02 08:00:08.030 P Get Checking balance (4000ms)
+2025-10-02 08:00:08.748 P Verify Balance (717ms)
+2025-10-02 08:00:09.251 P Click Log out (503ms)
+2025-10-02 08:00:09.782 P Verify logged out (531ms)
+2025-10-02 08:00:10.959 P Click Log out (1177ms)
+2025-10-02 08:00:10.959 - END TEST (0ms)
+--- END TEST_ID: Login_And_Checking_Balance (Release_ID: R5.0) ---
+
+--- START TEST_ID: Transfer_Funds Release_ID: R5.0 ---
+-- Description: Verify transfer from Checking to Savings.
+2025-10-02 08:00:16.959 - START TESTed (0ms)
+2025-10-02 08:00:17.264 P Enter URL (304ms)
+2025-10-02 08:00:17.524 P Verify Page Start (260ms)
+2025-10-02 08:00:17.788 P Enter user name Tony (264ms)
+2025-10-02 08:00:18.126 P Enter password ****** (338ms)
+2025-10-02 08:00:18.989 P Click Login button (862ms)
+2025-10-02 08:00:19.806 P Verify home page appeared (817ms)
+2025-10-02 08:00:20.674 P Select Transfer Funds (868ms)
+2025-10-02 08:00:21.479 P Enter amount 100.00 (804ms)
+2025-10-02 08:00:22.060 P Select From Checking (581ms)
+2025-10-02 08:00:22.617 P Select To Savings (556ms)
+2025-10-02 08:00:23.879 P Submit Transfer (1262ms)
+2025-10-02 08:00:24.952 P Verify Transfer Success (1073ms)
+2025-10-02 08:00:25.516 P Click Log out (563ms)
+2025-10-02 08:00:25.928 P Verify logged out (412ms)
+2025-10-02 08:00:26.407 P Verify logged out (479ms)
+2025-10-02 08:00:26.407 - END TEST (0ms)
+--- END TEST_ID: Transfer_Funds (Release_ID: R5.0) ---
+
+--- START TEST_ID: Test_3 Release_ID: R5.0 ---
+-- Description: Auto-generated test case number 3.
+2025-10-02 08:00:30.407 - START TESTed (0ms)
+2025-10-02 08:00:30.731 P Enter URL (323ms)
+2025-10-02 08:00:31.039 P Verify Page Start (307ms)
+2025-10-02 08:00:31.361 P Enter user name Tony (321ms)
+2025-10-02 08:00:31.654 P Enter password ****** (293ms)
+2025-10-02 08:00:32.318 P Click Login button (663ms)
+2025-10-02 08:00:33.378 P Verify home page appeared (1060ms)
+2025-10-02 08:00:33.778 P Perform action 3_1 (399ms)
+2025-10-02 08:00:34.296 P Perform action 3_2 (518ms)
+2025-10-02 08:00:34.860 P Verify result 3 (563ms)
+2025-10-02 08:00:35.535 P Click Log out (675ms)
+2025-10-02 08:00:35.985 P Verify logged out (450ms)
+2025-10-02 08:00:35.985 - END TEST (0ms)
+--- END TEST_ID: Test_3 (Release_ID: R5.0) ---
+
+--- START TEST_ID: Test_4 Release_ID: R5.0 ---
+-- Description: Auto-generated test case number 4.
+2025-10-02 08:00:36.985 - START TESTed (0ms)
+2025-10-02 08:00:37.232 P Enter URL (246ms)
+2025-10-02 08:00:37.495 P Verify Page Start (263ms)
+2025-10-02 08:00:37.796 P Enter user name Tony (300ms)
+2025-10-02 08:00:38.046 P Enter password ****** (250ms)
+2025-10-02 08:00:38.717 P Click Login button (671ms)
+2025-10-02 08:00:39.684 P Verify home page appeared (967ms)
+2025-10-02 08:00:40.083 P Perform action 4_1 (398ms)
+2025-10-02 08:00:40.638 P Perform action 4_2 (555ms)
+2025-10-02 08:00:41.156 P Verify result 4 (518ms)
+2025-10-02 08:00:41.820 P Click Log out (664ms)
+2025-10-02 08:00:42.375 P Verify logged out (554ms)
+2025-10-02 08:00:42.375 - END TEST (0ms)
+--- END TEST_ID: Test_4 (Release_ID: R5.0) ---
+
+--- START TEST_ID: Test_5 Release_ID: R5.0 ---
+-- Description: Auto-generated test case number 5.
+2025-10-02 08:00:52.375 - START TESTed (0ms)
+2025-10-02 08:00:52.620 P Enter URL (245ms)
+2025-10-02 08:00:52.953 P Verify Page Start (332ms)
+2025-10-02 08:00:53.216 P Enter user name Tony (263ms)
+2025-10-02 08:00:53.488 P Enter password ****** (271ms)
+2025-10-02 08:00:54.179 P Click Login button (690ms)
+2025-10-02 08:00:55.095 P Verify home page appeared (915ms)
+2025-10-02 08:00:55.484 P Perform action 5_1 (389ms)
+2025-10-02 08:00:56.151 P Perform action 5_2 (667ms)
+2025-10-02 08:00:56.741 P Verify result 5 (590ms)
+2025-10-02 08:00:57.320 P Click Log out (578ms)
+2025-10-02 08:00:57.823 P Verify logged out (503ms)
+2025-10-02 08:00:57.823 - END TEST (0ms)
+--- END TEST_ID: Test_5 (Release_ID: R5.0) ---
+
+--- START TEST_ID: Test_6 Release_ID: R5.0 ---
+-- Description: Auto-generated test case number 6.
+2025-10-02 08:01:02.823 - START TESTed (0ms)
+2025-10-02 08:01:03.152 P Enter URL (328ms)
+2025-10-02 08:01:03.419 P Verify Page Start (267ms)
+2025-10-02 08:01:03.698 P Enter user name Tony (278ms)
+2025-10-02 08:01:04.013 P Enter password ****** (314ms)
+2025-10-02 08:01:04.965 P Click Login button (952ms)
+2025-10-02 08:01:06.067 P Verify home page appeared (1102ms)
+2025-10-02 08:01:06.614 P Perform action 6_1 (546ms)
+2025-10-02 08:01:07.205 P Perform action 6_2 (591ms)
+2025-10-02 08:01:07.945 P Verify result 6 (739ms)
+2025-10-02 08:01:08.621 P Click Log out (676ms)
+2025-10-02 08:01:09.220 P Verify logged out (598ms)
+2025-10-02 08:01:09.220 - END TEST (0ms)
+--- END TEST_ID: Test_6 (Release_ID: R5.0) ---
+
+--- START TEST_ID: Test_8 Release_ID: R5.0 ---
+-- Description: Auto-generated test case number 8.
+2025-10-02 08:01:11.220 - START TESTed (0ms)
+2025-10-02 08:01:11.479 P Enter URL (258ms)
+2025-10-02 08:01:11.752 P Verify Page Start (273ms)
+2025-10-02 08:01:12.071 P Enter user name Tony (319ms)
+2025-10-02 08:01:12.382 P Enter password ****** (310ms)
+2025-10-02 08:01:13.234 P Click Login button (852ms)
+2025-10-02 08:01:14.136 P Verify home page appeared (901ms)
+2025-10-02 08:01:14.625 P Perform action 8_1 (489ms)
+2025-10-02 08:01:15.245 P Perform action 8_2 (620ms)
+2025-10-02 08:01:15.950 P Verify result 8 (705ms)
+2025-10-02 08:01:16.664 P Click Log out (714ms)
+2025-10-02 08:01:17.203 P Verify logged out (538ms)
+2025-10-02 08:01:17.203 - END TEST (0ms)
+--- END TEST_ID: Test_8 (Release_ID: R5.0) ---
+
+--- START TEST_ID: Test_9 Release_ID: R5.0 ---
+-- Description: Auto-generated test case number 9.
+2025-10-02 08:01:27.203 - START TESTed (0ms)
+2025-10-02 08:01:27.490 P Enter URL (287ms)
+2025-10-02 08:01:27.734 P Verify Page Start (243ms)
+2025-10-02 08:01:27.993 P Enter user name Tony (259ms)
+2025-10-02 08:01:28.329 P Enter password ****** (335ms)
+2025-10-02 08:01:29.084 P Click Login button (754ms)
+2025-10-02 08:01:30.253 P Verify home page appeared (1169ms)
+2025-10-02 08:01:30.833 P Perform action 9_1 (580ms)
+2025-10-02 08:01:31.465 P Perform action 9_2 (631ms)
+2025-10-02 08:01:32.162 P Verify result 9 (696ms)
+2025-10-02 08:01:32.711 P Click Log out (549ms)
+2025-10-02 08:01:33.230 P Verify logged out (519ms)
+2025-10-02 08:01:33.230 - END TEST (0ms)
+--- END TEST_ID: Test_9 (Release_ID: R5.0) ---
+
+--- START TEST_ID: Test_10 Release_ID: R5.0 ---
+-- Description: Auto-generated test case number 10.
+2025-10-02 08:01:43.230 - START TESTed (0ms)
+2025-10-02 08:01:43.571 P Enter URL (340ms)
+2025-10-02 08:01:43.886 P Verify Page Start (314ms)
+2025-10-02 08:01:44.226 P Enter user name Tony (340ms)
+2025-10-02 08:01:44.505 P Enter password ****** (278ms)
+2025-10-02 08:01:45.294 P Click Login button (789ms)
+2025-10-02 08:01:46.344 P Verify home page appeared (1050ms)
+2025-10-02 08:01:46.942 P Perform action 10_1 (597ms)
+2025-10-02 08:01:47.620 P Perform action 10_2 (678ms)
+2025-10-02 08:01:48.265 P Verify result 10 (644ms)
+2025-10-02 08:01:48.802 P Click Log out (536ms)
+2025-10-02 08:01:49.331 P Verify logged out (528ms)
+2025-10-02 08:01:49.331 - END TEST (0ms)
+--- END TEST_ID: Test_10 (Release_ID: R5.0) ---
+
+--- START TEST_ID: Test_11 Release_ID: R5.0 ---
+-- Description: Auto-generated test case number 11.
+2025-10-02 08:01:57.331 - START TESTed (0ms)
+2025-10-02 08:01:57.690 P Enter URL (359ms)
+2025-10-02 08:01:58.022 P Verify Page Start (331ms)
+2025-10-02 08:01:58.342 P Enter user name Tony (320ms)
+2025-10-02 08:01:58.661 P Enter password ****** (319ms)
+2025-10-02 08:01:59.606 P Click Login button (945ms)
+2025-10-02 08:02:00.592 P Verify home page appeared (986ms)
+2025-10-02 08:02:01.151 P Perform action 11_1 (558ms)
+2025-10-02 08:02:01.827 P Perform action 11_2 (675ms)
+2025-10-02 08:02:02.454 P Verify result 11 (627ms)
+2025-10-02 08:02:03.167 P Click Log out (712ms)
+2025-10-02 08:02:03.597 P Verify logged out (429ms)
+2025-10-02 08:02:03.597 - END TEST (0ms)
+--- END TEST_ID: Test_11 (Release_ID: R5.0) ---
+
+--- START TEST_ID: Test_12 Release_ID: R5.0 ---
+-- Description: Auto-generated test case number 12.
+2025-10-02 08:02:11.597 - START TESTed (0ms)
+2025-10-02 08:02:11.907 P Enter URL (309ms)
+2025-10-02 08:02:12.173 P Verify Page Start (265ms)
+2025-10-02 08:02:12.438 P Enter user name Tony (265ms)
+2025-10-02 08:02:12.774 P Enter password ****** (336ms)
+2025-10-02 08:02:13.704 P Click Login button (929ms)
+2025-10-02 08:02:14.808 P Verify home page appeared (1103ms)
+2025-10-02 08:02:15.411 P Perform action 12_1 (603ms)
+2025-10-02 08:02:16.178 P Perform action 12_2 (766ms)
+2025-10-02 08:02:16.792 P Verify result 12 (614ms)
+2025-10-02 08:02:17.341 P Click Log out (548ms)
+2025-10-02 08:02:17.923 P Verify logged out (581ms)
+2025-10-02 08:02:17.923 - END TEST (0ms)
+--- END TEST_ID: Test_12 (Release_ID: R5.0) ---
+
+--- START TEST_ID: Test_14 Release_ID: R5.0 ---
+-- Description: Auto-generated test case number 14.
+2025-10-02 08:02:25.923 - START TESTed (0ms)
+2025-10-02 08:02:26.189 P Enter URL (265ms)
+2025-10-02 08:02:26.524 P Verify Page Start (335ms)
+2025-10-02 08:02:26.855 P Enter user name Tony (331ms)
+2025-10-02 08:02:27.119 P Enter password ****** (263ms)
+2025-10-02 08:02:27.988 P Click Login button (868ms)
+2025-10-02 08:02:28.867 P Verify home page appeared (879ms)
+2025-10-02 08:02:29.310 P Perform action 14_1 (442ms)
+2025-10-02 08:02:29.882 P Perform action 14_2 (572ms)
+2025-10-02 08:02:30.545 P Verify result 14 (662ms)
+2025-10-02 08:02:31.152 P Click Log out (607ms)
+2025-10-02 08:02:31.713 P Verify logged out (560ms)
+2025-10-02 08:02:31.713 - END TEST (0ms)
+--- END TEST_ID: Test_14 (Release_ID: R5.0) ---
+
+--- START TEST_ID: Test_15 Release_ID: R5.0 ---
+-- Description: Auto-generated test case number 15.
+2025-10-02 08:02:34.713 - START TESTed (0ms)
+2025-10-02 08:02:35.048 P Enter URL (335ms)
+2025-10-02 08:02:35.372 P Verify Page Start (324ms)
+2025-10-02 08:02:35.651 P Enter user name Tony (279ms)
+2025-10-02 08:02:35.957 P Enter password ****** (305ms)
+2025-10-02 08:02:36.894 P Click Login button (937ms)
+2025-10-02 08:02:37.787 P Verify home page appeared (893ms)
+2025-10-02 08:02:38.409 P Perform action 15_1 (621ms)
+2025-10-02 08:02:39.108 P Perform action 15_2 (699ms)
+2025-10-02 08:02:39.848 P Verify result 15 (740ms)
+2025-10-02 08:02:40.516 P Click Log out (667ms)
+2025-10-02 08:02:40.948 P Verify logged out (431ms)
+2025-10-02 08:02:40.948 - END TEST (0ms)
+--- END TEST_ID: Test_15 (Release_ID: R5.0) ---
+
+--- START TEST_ID: Test_16 Release_ID: R5.0 ---
+-- Description: Auto-generated test case number 16.
+2025-10-02 08:02:48.948 - START TESTed (0ms)
+2025-10-02 08:02:49.201 P Enter URL (253ms)
+2025-10-02 08:02:49.490 P Verify Page Start (288ms)
+2025-10-02 08:02:49.821 P Enter user name Tony (331ms)
+2025-10-02 08:02:50.143 P Enter password ****** (321ms)
+2025-10-02 08:02:50.866 P Click Login button (723ms)
+2025-10-02 08:02:51.952 P Verify home page appeared (1085ms)
+2025-10-02 08:02:52.401 P Perform action 16_1 (448ms)
+2025-10-02 08:02:53.177 P Perform action 16_2 (776ms)
+2025-10-02 08:02:53.893 P Verify result 16 (715ms)
+2025-10-02 08:02:54.525 P Click Log out (631ms)
+2025-10-02 08:02:54.960 P Verify logged out (435ms)
+2025-10-02 08:02:54.960 - END TEST (0ms)
+--- END TEST_ID: Test_16 (Release_ID: R5.0) ---
+
+--- START TEST_ID: Test_17 Release_ID: R5.0 ---
+-- Description: Auto-generated test case number 17.
+2025-10-02 08:02:59.960 - START TESTed (0ms)
+2025-10-02 08:03:00.268 P Enter URL (307ms)
+2025-10-02 08:03:00.607 P Verify Page Start (339ms)
+2025-10-02 08:03:00.886 P Enter user name Tony (278ms)
+2025-10-02 08:03:01.172 P Enter password ****** (286ms)
+2025-10-02 08:03:02.014 P Click Login button (841ms)
+2025-10-02 08:03:02.937 P Verify home page appeared (922ms)
+2025-10-02 08:03:03.562 P Perform action 17_1 (625ms)
+2025-10-02 08:03:04.326 P Perform action 17_2 (763ms)
+2025-10-02 08:03:05.042 P Verify result 17 (716ms)
+2025-10-02 08:03:05.719 P Click Log out (676ms)
+2025-10-02 08:03:06.227 P Verify logged out (508ms)
+2025-10-02 08:03:06.227 - END TEST (0ms)
+--- END TEST_ID: Test_17 (Release_ID: R5.0) ---
+
+
+--- SUMMARY ---
+Release_ID: R5.0
+Tests Run: 15
+Tests Passed: 15
+Tests Skipped: 2
+Steps Passed: 170
+Steps Failed: 0
+Average Latency: 6548 ms
+
+--- END APPEND FROM R5.0 ---
