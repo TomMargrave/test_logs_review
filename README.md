@@ -42,6 +42,7 @@ skip_rate: 0.2
 latency_factor: 1.0
 fail_rate: 0.05
 output_format: log
+output_location: "D:\\Projects\\LogDetails\\logs\\"
 releases:
   - R1
   - R2
