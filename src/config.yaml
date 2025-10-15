@@ -1,0 +1,12 @@
+skip_rate: 0.2
+latency_factor: 1.0
+fail_rate: 0.001
+output_format: log
+output_location: "D:\\Projects\\LogDetails\\logs\\"
+releases:
+    - R1.0
+    - R2.0
+    - R3.0
+    - R3.1
+    - R5.0
+reusable_stop_function: STOP_AND_RESTART_AUT

@@ -1,0 +1,475 @@
+{
+  "reusable": {
+    "Login": [
+      {
+        "action": "Enter URL",
+        "mean_time": 300
+      },
+      {
+        "action": "Verify Page Start",
+        "mean_time": 300
+      },
+      {
+        "action": "Enter user name Tony",
+        "mean_time": 300
+      },
+      {
+        "action": "Enter password ******",
+        "mean_time": 300
+      },
+      {
+        "action": "Click Login button",
+        "mean_time": 800
+      },
+      {
+        "action": "Verify home page appeared",
+        "mean_time": 1000
+      }
+    ],
+    "Logout": [
+      {
+        "action": "Click Log out",
+        "mean_time": 600
+      },
+      {
+        "action": "Verify logged out",
+        "mean_time": 500
+      }
+    ]
+  },
+  "tests": [
+    {
+      "name": "Login_And_Checking_Balance",
+      "description": "Verify user can login and view checking account balance.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Select Checking",
+          "mean_time": 700
+        },
+        {
+          "action": "Get Checking balance",
+          "mean_time": 1200,
+          "force_delay": 4000,
+          "latency_spike": 5.0,
+          "stop_on_fail": true
+        },
+        {
+          "action": "Verify Balance",
+          "mean_time": 800
+        },
+        {
+          "use": "Logout"
+        },
+        {
+          "action": "Click Log out",
+          "mean_time": 600,
+          "latency_spike": 2.0
+        }
+      ]
+    },
+    {
+      "name": "Transfer_Funds",
+      "description": "Verify transfer from Checking to Savings.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Select Transfer Funds",
+          "mean_time": 800
+        },
+        {
+          "action": "Enter amount 100.00",
+          "mean_time": 700
+        },
+        {
+          "action": "Select From Checking",
+          "mean_time": 500
+        },
+        {
+          "action": "Select To Savings",
+          "mean_time": 500
+        },
+        {
+          "action": "Submit Transfer",
+          "mean_time": 1200
+        },
+        {
+          "action": "Verify Transfer Success",
+          "mean_time": 1000
+        },
+        {
+          "use": "Logout"
+        },
+        {
+          "action": "Verify logged out",
+          "mean_time": 500,
+          "stop_on_fail": true
+        }
+      ]
+    },
+    {
+      "name": "Test_3",
+      "description": "Auto-generated test case number 3.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 3_1",
+          "mean_time": 430
+        },
+        {
+          "action": "Perform action 3_2",
+          "mean_time": 545
+        },
+        {
+          "action": "Verify result 3",
+          "mean_time": 615
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    },
+    {
+      "name": "Test_4",
+      "description": "Auto-generated test case number 4.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 4_1",
+          "mean_time": 440
+        },
+        {
+          "action": "Perform action 4_2",
+          "mean_time": 560
+        },
+        {
+          "action": "Verify result 4",
+          "mean_time": 620
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    },
+    {
+      "name": "Test_5",
+      "description": "Auto-generated test case number 5.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 5_1",
+          "mean_time": 450
+        },
+        {
+          "action": "Perform action 5_2",
+          "mean_time": 575
+        },
+        {
+          "action": "Verify result 5",
+          "mean_time": 625
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    },
+    {
+      "name": "Test_6",
+      "description": "Auto-generated test case number 6.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 6_1",
+          "mean_time": 460
+        },
+        {
+          "action": "Perform action 6_2",
+          "mean_time": 590
+        },
+        {
+          "action": "Verify result 6",
+          "mean_time": 630
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    },
+    {
+      "name": "Test_7",
+      "description": "Auto-generated test case number 7.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 7_1",
+          "mean_time": 470
+        },
+        {
+          "action": "Perform action 7_2",
+          "mean_time": 605
+        },
+        {
+          "action": "Verify result 7",
+          "mean_time": 635
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    },
+    {
+      "name": "Test_8",
+      "description": "Auto-generated test case number 8.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 8_1",
+          "mean_time": 480
+        },
+        {
+          "action": "Perform action 8_2",
+          "mean_time": 620
+        },
+        {
+          "action": "Verify result 8",
+          "mean_time": 640
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    },
+    {
+      "name": "Test_9",
+      "description": "Auto-generated test case number 9.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 9_1",
+          "mean_time": 490
+        },
+        {
+          "action": "Perform action 9_2",
+          "mean_time": 635
+        },
+        {
+          "action": "Verify result 9",
+          "mean_time": 645
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    },
+    {
+      "name": "Test_10",
+      "description": "Auto-generated test case number 10.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 10_1",
+          "mean_time": 500
+        },
+        {
+          "action": "Perform action 10_2",
+          "mean_time": 650
+        },
+        {
+          "action": "Verify result 10",
+          "mean_time": 650
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    },
+    {
+      "name": "Test_11",
+      "description": "Auto-generated test case number 11.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 11_1",
+          "mean_time": 510
+        },
+        {
+          "action": "Perform action 11_2",
+          "mean_time": 665
+        },
+        {
+          "action": "Verify result 11",
+          "mean_time": 655
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    },
+    {
+      "name": "Test_12",
+      "description": "Auto-generated test case number 12.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 12_1",
+          "mean_time": 520
+        },
+        {
+          "action": "Perform action 12_2",
+          "mean_time": 680
+        },
+        {
+          "action": "Verify result 12",
+          "mean_time": 660
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    },
+    {
+      "name": "Test_13",
+      "description": "Auto-generated test case number 13.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 13_1",
+          "mean_time": 530
+        },
+        {
+          "action": "Perform action 13_2",
+          "mean_time": 695
+        },
+        {
+          "action": "Verify result 13",
+          "mean_time": 665
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    },
+    {
+      "name": "Test_14",
+      "description": "Auto-generated test case number 14.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 14_1",
+          "mean_time": 540
+        },
+        {
+          "action": "Perform action 14_2",
+          "mean_time": 710
+        },
+        {
+          "action": "Verify result 14",
+          "mean_time": 670
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    },
+    {
+      "name": "Test_15",
+      "description": "Auto-generated test case number 15.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 15_1",
+          "mean_time": 550
+        },
+        {
+          "action": "Perform action 15_2",
+          "mean_time": 725
+        },
+        {
+          "action": "Verify result 15",
+          "mean_time": 675
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    },
+    {
+      "name": "Test_16",
+      "description": "Auto-generated test case number 16.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 16_1",
+          "mean_time": 560
+        },
+        {
+          "action": "Perform action 16_2",
+          "mean_time": 740
+        },
+        {
+          "action": "Verify result 16",
+          "mean_time": 680
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    },
+    {
+      "name": "Test_17",
+      "description": "Auto-generated test case number 17.",
+      "steps": [
+        {
+          "use": "Login"
+        },
+        {
+          "action": "Perform action 17_1",
+          "mean_time": 570
+        },
+        {
+          "action": "Perform action 17_2",
+          "mean_time": 755
+        },
+        {
+          "action": "Verify result 17",
+          "mean_time": 685
+        },
+        {
+          "use": "Logout"
+        }
+      ]
+    }
+  ]
+}

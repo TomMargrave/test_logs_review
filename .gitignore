@@ -1,0 +1,16 @@
+logs/*
+trash.*
+src/__pycache__/*
+*.pyc
+.vscode/*
+.idea/*
+.DS_Store
+
+# Ignore environment files
+env/
+
+# Ignore log files
+logs/*.log
+logs/*.txt
+
+

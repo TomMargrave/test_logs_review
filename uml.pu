@@ -1,0 +1,60 @@
+@startuml LogDetails
+class VirtualClock {
+    +__init__(start_time=None)
+    +now()
+    +advance_ms(delay_ms)
+    +advance_days(days)
+    +start_test_at(hour, minute=0, second=0)
+    +formatted_time()
+}
+
+
+class LogDetails {
+    +__init__(test_case_file="test_cases.json")
+    +load_test_cases(file="test_cases.json")
+    +jitter_delay(mean_time, variance=0.2, force_delay=None, latency_factor=1.0)
+    +run_step(step, latency_factor=1.0, fail_rate=0.05)
+    +expand_steps(test)
+    +run_test(test, latency_factor=1.0, fail_rate=0.05)
+    +generate_test_log(release_name, skip_rate=0.2, latency_factor=1.0, fail_rate=0.05)
+    +cleanup_logs(folder=".")
+    +make_logs()
+}
+
+LogDetails "1" -- "1" VirtualClock : uses
+
+LogDetails : load_test_cases()
+LogDetails : jitter_delay()
+LogDetails : run_step()
+LogDetails : expand_steps()
+LogDetails : run_test()
+LogDetails : generate_test_log()
+LogDetails : cleanup_logs()
+LogDetails : make_logs()
+
+LogDetails ..> run_test : calls
+LogDetails ..> generate_test_log : calls
+LogDetails ..> run_step : calls
+LogDetails ..> expand_steps : calls
+LogDetails ..> VirtualClock : uses
+
+run_test --> run_step
+run_test --> expand_steps
+generate_test_log --> run_test
+generate_test_log --> VirtualClock
+make_logs --> generate_test_log
+make_logs --> cleanup_logs
+
+VirtualClock : now()
+VirtualClock : advance_ms()
+VirtualClock : advance_days()
+VirtualClock : start_test_at()
+VirtualClock : formatted_time()
+
+VirtualClock : now()
+VirtualClock : advance_ms()
+VirtualClock : advance_days()
+VirtualClock : start_test_at()
+VirtualClock : formatted_time()
+
+@enduml
